@@ -37,11 +37,21 @@ body {
 }
 .image-full img{
   max-width: 100%;
-  margin: 2% 0 2% 0;
+  margin: 2% auto 2% auto;
+}
+.reduced-height{
+  max-height: 30%;
+}
+.image-half img{
+  max-width: 45%;
+  margin: 2% auto 2% auto;
 }
 .image.main img{
   max-width: 100%;
   max-height: 400px
+}
+.right{
+  float:right;
 }
 h1,
 h2,
