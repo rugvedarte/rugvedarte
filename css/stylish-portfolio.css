@@ -44,6 +44,10 @@ body {
   max-height: 30%;
 
 }
+.reduced-size{
+  max-height: 20%;
+  max-width: 20%;
+}
 .image-half img{
   max-width: 45%;
   margin: 2% auto 4% auto;
