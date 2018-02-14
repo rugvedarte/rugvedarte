@@ -7,6 +7,10 @@ html {
 body {
   font-family: 'Source Sans Pro';
 }
+.navbar-brand .logo-main{
+  max-width: 15%;
+  max-height: 15%;
+}
 .genericPage{
   margin-top: 8rem;
   font-size:1.3rem;
@@ -20,6 +24,7 @@ body {
 .container-fluid.portcontainer{
   padding-left: 0;
   padding-right: 0;
+  height:100%;
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
@@ -117,14 +122,14 @@ h6 {
 }
 
 .masthead {
-  min-height: 30rem;
+  min-height: 35rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-4.jpg");
+  background-color: #f9ca24;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -265,7 +270,7 @@ li.nav-item .nav-link {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background-color: #f9ca24;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
