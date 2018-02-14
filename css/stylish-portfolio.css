@@ -8,8 +8,8 @@ body {
   font-family: 'Source Sans Pro';
 }
 .navbar-brand .logo-main{
-  max-width: 15%;
-  max-height: 15%;
+  max-width: 20%;
+  max-height: 20%;
 }
 .genericPage{
   margin-top: 8rem;
@@ -162,6 +162,7 @@ li.nav-item .btn {
 li.nav-item .btn-white {
   color: #46484a; }
 li.nav-item .nav-link {
+    font-size: 1.2rem;
     color: white !important; }
 /* Side Menu */
 /*#sidebar-wrapper {
