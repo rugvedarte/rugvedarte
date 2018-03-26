@@ -8,6 +8,16 @@
 */
 
 /* Reset */
+.summary{
+	padding:1em 1em 1em 1em;
+	background-color: #d9d9d9;
+	font-size: 1.2em;
+	margin-bottom:2em;
+
+}
+.summary table{
+	margin-bottom : 0em;
+}
 .image-full{
 	width:100%;
 	margin: 1em 0 1em 0;
