@@ -27,6 +27,16 @@
 	margin: 1em 0 1em 0;
 }
 
+ol.findings{
+	list-style-type: initial !important;
+	font-weight: 700;
+	margin: 0em 0em 0em 1em;
+}
+span.emphasis{
+	color:#C1272D;
+	font-size:1.2em;
+	font-weight: 700;
+}
 
 .image-half img{
 	max-width: 48%;
@@ -38,8 +48,20 @@
 }
 .image-full img{
 	max-width: 100%;
-	max-height: 100%
+	max-height: 100%;
+	display: block;
+	margin: auto;
 }
+.image-full img.small{
+	max-width: 50%;
+	max-height: 50%;
+}
+.image-full img.med{
+	max-width: 70%;
+	max-height: 70%;
+}
+
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
