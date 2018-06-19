@@ -1,13 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
-/* Reset */
 .summary{
 	padding:1em 1em 1em 1em;
 	background-color: #d9d9d9;
@@ -35,7 +29,7 @@
 	justify-content: space-evenly;
 	align-content: center;
 }
-img.grid-item{
+img.grid-item, img.grid-item3{
 	max-width:90%;
 	max-height:100%;
 	transition: 1s;
@@ -47,6 +41,12 @@ img.grid-item:hover{
 	z-index: 4;
 	cursor: pointer;
 }
+img.grid-item3:hover{
+	transform: scale(1.5);
+	z-index: 4;
+	cursor: pointer;
+}
+
 
 .invisionflashreader{
 	width:100%;
